@@ -1,0 +1,16 @@
+{
+  "name": "Category Revenue Growth",
+  "description": "Horizontal bar chart showing category revenue growth between two periods, overcoming double aggregation limitations",
+  "version": "1.0.0",
+  "size": {
+    "width": 4,
+    "height": 4
+  },
+  "datasetsMapping": [
+    {
+      "alias": "revenue",
+      "dataSetId": "0949d180-ac43-4f4e-9b5e-3600533df341",
+      "fields": []
+    }
+  ]
+}

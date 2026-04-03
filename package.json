@@ -1,0 +1,18 @@
+{
+  "name": "domo-app-double-aggregate",
+  "version": "1.0.0",
+  "description": "Horizontal bar chart overcoming Domo double-aggregation limitation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@domoinc/query": "^3.0.0",
+    "d3": "^7.9.0",
+    "ryuu.js": "^5.1.4",
+    "vite": "^8.0.3"
+  }
+}
