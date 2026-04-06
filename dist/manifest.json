@@ -1,6 +1,4 @@
 {
-  "id": "9eeb2be6-8442-44ca-8e65-f56ff974b4b3",
-  "proxyId": "cabb8738-459c-4d97-9961-5906cbc939f6",
   "name": "Category Revenue Growth",
   "description": "Horizontal bar chart showing category revenue growth between two periods, overcoming double aggregation limitations",
   "version": "1.0.0",
@@ -12,7 +10,7 @@
   "datasetsMapping": [
     {
       "alias": "revenue",
-      "dataSetId": "5130f54a-198f-450a-a36b-5291228c41dc",
+      "dataSetId": "0949d180-ac43-4f4e-9b5e-3600533df341",
       "fields": [
         {
           "alias": "OU_NAME",
@@ -36,5 +34,6 @@
         }
       ]
     }
-  ]
+  ],
+  "fileName": "manifest.json"
 }
