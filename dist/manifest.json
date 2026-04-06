@@ -1,16 +1,40 @@
 {
+  "id": "9eeb2be6-8442-44ca-8e65-f56ff974b4b3",
+  "proxyId": "cabb8738-459c-4d97-9961-5906cbc939f6",
   "name": "Category Revenue Growth",
   "description": "Horizontal bar chart showing category revenue growth between two periods, overcoming double aggregation limitations",
   "version": "1.0.0",
+  "fullPage": true,
   "size": {
-    "width": 4,
-    "height": 4
+    "width": 6,
+    "height": 6
   },
   "datasetsMapping": [
     {
       "alias": "revenue",
-      "dataSetId": "0949d180-ac43-4f4e-9b5e-3600533df341",
-      "fields": []
+      "dataSetId": "5130f54a-198f-450a-a36b-5291228c41dc",
+      "fields": [
+        {
+          "alias": "OU_NAME",
+          "columnName": "OU_NAME"
+        },
+        {
+          "alias": "TOTAL_AMOUNT_USD",
+          "columnName": "TOTAL_AMOUNT_USD"
+        },
+        {
+          "alias": "SEASON_SPLIT_YEAR_GROUPING",
+          "columnName": "Season Split Year Grouping"
+        },
+        {
+          "alias": "SEASON_SPLIT_SORT",
+          "columnName": "Season Split Sort"
+        },
+        {
+          "alias": "FISCAL_YEAR",
+          "columnName": "Fiscal Year"
+        }
+      ]
     }
   ]
 }
